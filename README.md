@@ -1,13 +1,13 @@
 # cl-nock
 
 This is an interpreter for the
-(nock)[https://urbit.org/docs/tutorials/nock/definition/], Urbit's
+[nock](https://urbit.org/docs/tutorials/nock/definition/), Urbit's
 purely functional machine code that I wrote in an afternoon.
 
 This is by no means production ready, as it does not respect hints
 (opcode 11), but it does moderately non-trivial code, for example, the
-decrement function (provided at the end of this
-page)[https://urbit.org/docs/tutorials/nock/example/] runs without
+decrement function [provided at the end of this
+page](https://urbit.org/docs/tutorials/nock/example/) runs without
 error, thus all the opcodes function properly, just slowly (again,
 because of the lack of respecting hints).
 
