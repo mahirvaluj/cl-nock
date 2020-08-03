@@ -1,8 +1,8 @@
 # cl-nock
 
-This is an interpreter for the
+This is an interpreter for
 [nock](https://urbit.org/docs/tutorials/nock/definition/), Urbit's
-purely functional machine code that I wrote in an afternoon.
+purely functional machine code, that I wrote in an afternoon.
 
 This is by no means production ready, as it does not respect hints
 (opcode 11), but it does moderately non-trivial code, for example, the
